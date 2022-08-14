@@ -3,3 +3,11 @@ body {
 	font-size: 14px;
 	color: #fff;
 }
+
+h1 {
+	text-align: center;
+}
+
+marquee p {
+	letter-spacing: 5px;
+}
