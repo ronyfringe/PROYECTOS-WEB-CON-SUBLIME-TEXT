@@ -1,7 +1,8 @@
 body {
-	background: green;
+	background: #1A4D2E;
 	font-size: 14px;
 	color: #fff;
+	font-family: monospace;
 }
 
 h1 {
@@ -10,4 +11,5 @@ h1 {
 
 marquee p {
 	letter-spacing: 5px;
+	font-size: 16px;
 }

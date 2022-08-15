@@ -1,5 +1,9 @@
 body {
-	background: lightcoral;
-	font-size: 14px;
+	background: #92BA92;
+	font-size: 18px;
 	color: #fff;
+}
+
+li {
+	font-size: 18px;
 }

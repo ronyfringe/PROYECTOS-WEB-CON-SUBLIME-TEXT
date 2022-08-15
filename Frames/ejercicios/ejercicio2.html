@@ -6,15 +6,53 @@
 	<title>Ejercicio-2</title>
 	<link rel="stylesheet" type="text/css" href="../css/ejercicios.css">
 </head>
+
+<style>
+	
+</style>
+
 <body>
 	<h1>Ejercicio 2</h1>
-	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	<p>Realizado 14/08/22</p>
+	<a href="#">Curso JavaScript: 35. Ejercicios de Lógica de Programación ( 2 / 10 )</a>
+	<p class="texto_ejercicio">Programa una función que te devuelva el texto recortado según el número de caracteres indicados, pe. miFuncion("Hola Mundo", 4) devolverá "Hola".</p>
 
-	<button class="button">Ver solución</button>
+	<button onclick="mostrarCodigo()" id="myBtn_codigo" class="button" >Ver código</button>
+
+	<hr>
+
+<div>
+	<img class="hidden_codigo" id="img_codigo" src="../img/codigo_ejercicio_2.png" alt="codigo de ejercicio 2">
+</div>
+
+	<button onclick="mostrarConsola()" id="myBtn_consola" class="button" >Ver consola</button>
+
+	<hr>
+
+<div>
+	<img class="hidden_consola" id="img_consola" src="../img/consola_ejercicio_2.png" alt="consola de ejercicio 2" >
+</div>
+
 </body>
+
+<script>
+	function mostrarCodigo() {
+		var x = document.getElementById("img_codigo");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+
+		function mostrarConsola() {
+		var y = document.getElementById("img_consola");
+		if (y.style.display === "none") {
+			y.style.display = "block";
+		} else {
+			y.style.display = "none";
+		}
+	}
+</script>
+
 </html>

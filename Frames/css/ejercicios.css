@@ -1,3 +1,4 @@
+/*estilos para los botones que muestran las imagenes*/
 .button {
   display: inline-block;
   padding: 15px 25px;
@@ -11,6 +12,7 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  margin-bottom: 10px;
 }
 
 .button:hover {background-color: #3e8e41}
@@ -19,4 +21,34 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+/*estilos para el texto del ejercicio*/
+.texto_ejercicio {
+  font-size: 18px;
+}
+
+/*estilos para los imagenes de los ejercicios*/
+.hidden_codigo {
+  display: none;
+  margin: 50px 70px;
+  width: auto;
+  height: auto;
+  max-height: 700px;
+  max-width: 900px;
+  margin-left: 100px;
+  object-fit: cover;
+  transform: scale(1.2);
+}
+
+.hidden_consola {
+  display: none;
+  margin: 50px 0px;
+  margin-left: 180px;
+  width: auto;
+  height: auto;
+  max-height: 700px;
+  max-width: 900px;
+  object-fit: cover;
+  transform: scale(1.4);
 }
