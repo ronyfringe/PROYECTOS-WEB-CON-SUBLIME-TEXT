@@ -39,11 +39,12 @@
   margin-left: 100px;
   object-fit: cover;
   transform: scale(1.2);
+  border-radius: 10px;
 }
 
 .hidden_consola {
   display: none;
-  margin: 50px 0px;
+  margin: 70px 0px;
   margin-left: 180px;
   width: auto;
   height: auto;
@@ -51,4 +52,5 @@
   max-width: 900px;
   object-fit: cover;
   transform: scale(1.4);
+  border-radius: 10px;
 }
