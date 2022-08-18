@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio-7</title>
+	<link rel="stylesheet" type="text/css" href="../css/ejercicios.css">
+</head>
+
+<body>
+	<h1>Ejercicio 7</h1>
+	<p>Realizado 17/08/22</p>
+	<a href="#">Curso JavaScript: 35. Ejercicios de Lógica de Programación ( 3 / 10 )</a>
+	<p class="texto_ejercicio">Programa una función que valide si una palabra o frase dada, es un palíndromo (que se lee igual en un sentido que en otro), pe. mifuncion("Salas") devolverá true.</p>
+
+	<button onclick="mostrarCodigo()" id="myBtn_codigo" class="button" >Ver código</button>
+
+	<hr>
+
+<div>
+	<img class="hidden_codigo" id="img_codigo" src="../img/codigo_ejercicio_7.png" alt="codigo de ejercicio 7">
+</div>
+
+	<button onclick="mostrarConsola()" id="myBtn_consola" class="button" >Ver consola</button>
+
+	<hr>
+
+<div>
+	<img class="hidden_consola" id="img_consola" src="../img/consola_ejercicio_7.png" alt="consola de ejercicio 7" >
+</div>
+
+</body>
+
+<script>
+	function mostrarCodigo() {
+		var x = document.getElementById("img_codigo");
+		if (x.style.display === "none") {
+			x.style.display = "block";
+		} else {
+			x.style.display = "none";
+		}
+	}
+
+		function mostrarConsola() {
+		var y = document.getElementById("img_consola");
+		if (y.style.display === "none") {
+			y.style.display = "block";
+		} else {
+			y.style.display = "none";
+		}
+	}
+</script>
+
+</html>

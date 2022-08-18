@@ -1,0 +1,57 @@
+
+/*acomodando elementos del encabezado*/
+.elementosEncabezado {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	margin: 0 50px;
+	align-items: center;
+	font-size: 18px;
+
+}
+
+.elementosEncabezado p {
+	margin-right: 30px;
+}
+
+/*pintando botones*/
+.modoGreen {
+	background: #92BA92;
+	border-radius: 8px;
+	padding: 6px 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.modoBlue {
+	background: #1888F1;
+	border-radius: 8px;
+	padding: 6px 15px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.modoRed {
+	background: #C83535;
+	border-radius: 8px;
+	padding: 6px 15px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.modoPurple {
+	background: #C855CC;
+	border-radius: 8px;
+	padding: 6px 10px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.modoYellow {
+	background-color: #E0D46E;
+	border-radius: 8px;
+	padding: 6px 8px;
+	cursor: pointer;
+	font-size: 16px;
+}
