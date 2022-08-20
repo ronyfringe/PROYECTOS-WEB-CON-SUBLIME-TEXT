@@ -1,4 +1,25 @@
+.bgGreen {
+    background-color: #92BA92;
+    color: white;
+}
+
 .bgBlue {
     background-color: #145AE8;
     color: white;
 }
+
+.bgPurple {
+    background-color: #C855CC;
+    color: white;
+}
+
+.bgYellow {
+    background-color: #E0D46E;
+    color: white;
+}
+
+.bgRed {
+    background-color: #C83535;
+    color: white;
+}
+
