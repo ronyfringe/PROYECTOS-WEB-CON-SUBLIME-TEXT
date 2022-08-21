@@ -1,0 +1,35 @@
+
+form.boton_buscar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 50%;
+    background: #f1f1f1;
+    margin-left: 15px;
+}
+
+form.boton_buscar button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    /* background: #2196F3; blue*/
+    background: #01c401;
+    /*green*/
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+form.boton_buscar button:hover {
+    /* background: #0b7dda;  blue*/
+    background: #0d8b0d;
+}
+
+form.boton_buscar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
