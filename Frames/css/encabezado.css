@@ -13,3 +13,18 @@ marquee p {
 	letter-spacing: 5px;
 	font-size: 16px;
 }
+
+/*estilos del text house coding como glow*/
+.glow_text {
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #357320, 0 0 40px #357320;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #2BE645, 0 0 40px #2BE645, 0 0 40px #2BE645;
+    }
+}
