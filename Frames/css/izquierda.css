@@ -7,3 +7,10 @@ body {
 li {
 	font-size: 18px;
 }
+
+hr.hr_estilizado {
+    border: 10px solid green;
+    border-radius: 5px;
+    margin-top: -18px;
+    margin-left: -10px;
+}
